@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <title>simons's calculator</title>
+</head>
+<body>
+<div class="container">
+
+
+<form class="forms" name="calculator" action="index.html" method="post">
+  <input type="text" class = "answ" name="answer"><br>
+
+
+  <input type="button" class = "btn" name="1" onclick="calculator.answer.value += '1'" value="1">
+  <input type="button" class = "btn" name="2" onclick="calculator.answer.value += '2'" value="2">
+  <input type="button" class = "btn" name="3" onclick="calculator.answer.value += '3'" value="3">
+  <input type="button" class = "btn" name="+" onclick="calculator.answer.value += '+'" value="+"><br>
+
+  <input type="button"class = "btn" name="4" onclick="calculator.answer.value += '4'" value="4">
+  <input type="button"class = "btn" name="5" onclick="calculator.answer.value += '5'" value="5">
+  <input type="button"class = "btn" name="6" onclick="calculator.answer.value += '6'" value="6">
+  <input type="button"class = "btn" name="-" onclick="calculator.answer.value += '-'" value="-"><br>
+
+  <input type="button"class = "btn" name="7" onclick="calculator.answer.value += '7'" value="7">
+  <input type="button"class = "btn" name="8" onclick="calculator.answer.value += '8'" value="8">
+  <input type="button"class = "btn" name="9" onclick="calculator.answer.value += '9'" value="9">
+  <input type="button"class = "btn" name="*" onclick="calculator.answer.value += '*'" value="*"><br>
+
+  <input type="button"class = "btn" name="." onclick="calculator.answer.value += '.'" value=".">
+  <input type="button"class = "btn" name="=" onclick="calculator.answer.value = eval(calculator.answer.value)" value="=">
+  <input type="button"class = "btn"  onclick="calculator.answer.value = ''" value="c">
+  <input type="button"class = "btn" name="/" onclick="calculator.answer.value += '/'" value="/"><br>
+
+</form>
+</div>
+
+
+
+
+
+
+
+</body>
+
+</html>
